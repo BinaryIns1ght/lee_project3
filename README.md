@@ -8,7 +8,7 @@ Welcome to the "Edutainment To A Higher Degree" festival, where we focus on your
 
 ## Our Goal
 
-Our goal for this site is to push forth a charity to aid in the difficulty in low-income students to attend a higher education. Many higher education have a great difficulty in ateended to, with their high prices and low acceptance rates. Here at Edutainment To A Higher Degreee, we ensure you can be accepted to your desired college.
+Our goal for this site is to push forth a charity to aid in the difficulty in low-income students to attend a higher education. Many higher education have a great difficulty in ateended to, with their high prices and low acceptance rates. Here at Edutainment To A Higher Degreee, we ensure you can be accepted to your desired college. The sponser of this event is "One Million Degrees", an Illinois-based charity with a focus on helping low-income students get into their desired community college.
 
 ## Thought Processes And Wireframing
 
