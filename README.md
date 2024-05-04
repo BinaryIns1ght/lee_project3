@@ -2,19 +2,15 @@
 
 ## Overview
 
-The basis of this project is to create a site for a fictional festival to support a cause. The chosen cause is to allow more lower-income students to have more opportunities for a higher education. A lot of higher education colleges are incredibly hard to enroll due to their enrollment prices and the acceptance rates of many classes. With this in mind, the festival is meant to provide events to provide entertainment and education through the activities. Doing so, this can help encourage people to support the cause and even bring more students to be supported by the cause.
+Have you ever seek for an entertaining expereinces for education? Want to push the boundries and borders between what's entertaining and what's educationa? In this website is delving deep into those questions and even blurring the lines between the two aspects of an activity. Expect to view to site in many ways, through many screen aspects, from the larger screens of PCs, to the smaller screens of the phones. Even with the orientation of the device you may use to view to the site, we welcome you explore the site. Scroll around the site and view its many aspects. From the products to the events for the festival, we make sure evrrything is legible and understandable for many users on varying amount of platforms.
 
-To replicate the UI of many similar websites, the personal experiences aid in allowing for understanding the positioning and interactivity on how to replicate a similar tone to the design. This is allowed so many other users looking into the design can understand through their possible previous experiences. With the logo on the top-left of the screen, while also having the links to the other parts of the site in the top-right. The site is also responsive to the screen ratio to a phone in portrait display.
+Welcome to the "Edutainment To A Higher Degree" festival, where we focus on your views on entertainment, while also trying to provide a sense on education to our many attractions. Built off an old amusement park abandoned years ago, now, we refurbished the attractions to appeal to as many people as possible, making sure to push the site's understandability and purpose to many. 
 
-## Personal Experiences
+## Our Goal
 
-Personal experiences with the UI of many websites for a large event, many focus on a sense of legibility of the navigation bar. The logo large and understandable on the top-left and the links of the other parts of the sites on the top-right, this pushes a compact navigation to the site. Many even have hover effects and the color scheme of the UI matches the whole theming of the site.
+Our goal for this site is to push forth a charity to aid in the difficulty in low-income students to attend a higher education. Many higher education have a great difficulty in ateended to, with their high prices and low acceptance rates. Here at Edutainment To A Higher Degreee, we ensure you can be accepted to your desired college.
 
-Many sites also display the main focus through a background image as a banner, with large, display text to hook in the viewers. Lower in the webpage, there has been many large blocks of text that informs about the events/products.
-
-In the product page of many sites, they do usually display a large grid of available products from the platform. With each product's cell adjusting if the site is being displayed in a phone or PC screen. 
-
-## Lo-Fi (Or Mid-Fi) Wireframes
+## Thought Processes And Wireframing
 
 Here is the wireframes for the website:
 
