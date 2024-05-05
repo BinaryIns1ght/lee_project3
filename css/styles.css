@@ -148,7 +148,7 @@ footer article {
     font-weight: 1000;
     position: absolute;
     left: 27%;
-    top: 25%;
+    top: 30%;
 }
 
 #midSect {
@@ -167,6 +167,7 @@ footer article {
 #midSect h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
+    font-size: 2em;
     text-align: center;
     text-decoration: dashed;
     padding-bottom: 1em;
@@ -186,7 +187,7 @@ footer article {
 #showcase {
     background-color: white;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 5%;
     width: 90%;
     border: 0.15em solid black;
     box-shadow: 0.25em 0.25em  black;
@@ -220,7 +221,7 @@ footer article {
 }
 
 #showcase article div img {
-    width: 25%;
+    width: 20%;
     margin: 1em;
     border: 0.25em solid black;
     box-shadow: 0.5em 0.5em black;
@@ -228,20 +229,12 @@ footer article {
 
 #showcase article div p {
     padding: 0.5em;
-    width: 60%;
+    width: 40%;
     font-size: 1.25em;
     font-weight: 650;
     font-family: 'Farsan', sans-serif;
     align-self: center;
 }
-
-/* Events Page Styling */
-
-
-
-/* Gallery Page Styling */
-
-/* Merch Page Styling */
 
 /* Media Queries and Animations Styling */
 
@@ -266,7 +259,7 @@ footer article {
     }
 
     #logo {
-        width: 85%;
+        width: 80%;
         padding: 2%;
     }
 
@@ -338,7 +331,7 @@ footer article {
     }
 
     #showcase article {
-        width: 95%;
+        width: 80%;
     }
 
     #showcase article div {
@@ -405,7 +398,7 @@ footer article {
 
     #topDesc {
         font-size: 450%;
-        top: 12%;
+        top: 8%;
         left: 17%;
         font-weight: 100;
     }
@@ -480,18 +473,8 @@ footer article {
 @keyframes appear {
     from {
         opacity: 0;
-        transform: translateY(-10%);
-        -webkit-transform: translateY(-10%);
-        -moz-transform: translateY(-10%);
-        -ms-transform: translateY(-10%);
-        -o-transform: translateY(-10%);
     }
     to {
         opacity: 1;
-        transform: translateY(0%);
-        -webkit-transform: translateY(0%);
-        -moz-transform: translateY(0%);
-        -ms-transform: translateY(0%);
-        -o-transform: translateY(0%);
     }
 }

@@ -1,0 +1,111 @@
+/* Events Page Styling */
+
+#topBanner {
+    width: 100%;
+}
+
+#topBanner img {
+    width: 100%;
+    opacity: 75%;
+}
+
+#eventText {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    text-align: center;
+    color: rgb(50, 74, 154);
+    font-family: 'Oswald', sans-serif;
+    line-height: 700%;
+}
+
+#eventText h2 {
+    font-size: 2em;
+    font-weight: 600;
+    text-shadow: 0.05em 0.05em black;
+}
+
+#eventText h1 {
+    font-size: 15em;
+    font-weight: 900;
+    text-shadow: 0.025em 0.025em black;
+}
+
+#eventsIntro {
+    margin: 1%;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+#eventDisplay {
+    width: 80%;
+    margin: auto;
+    border: 0.25em solid black;
+    box-shadow: 0.5em 0.5em black;
+    background-color: darkgray;
+}
+
+#eventDisplay h1 {
+    text-align: center;
+    padding: 1em;
+    font-family: 'Farsan', sans-serif;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+#eventDisplay article {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    column-gap: 0.5em;
+}
+
+#eventDisplay article div {
+    border: 0.25em solid black;
+    box-shadow: 0.25em 0.25em black;
+    background-color: rgb(250, 208, 95);
+    width: 24%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#eventDisplay img {
+    margin: 0.25em;
+    width: 70%;
+    border: 0.25em solid black;
+    box-shadow: 0.125em 0.125em black;
+}
+
+#eventDisplay div h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+    text-decoration: underline;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 0.25em;
+    text-align: center;
+}
+
+#eventDisplay div p {
+    font-family: 'Farsan', sans-serif;
+    font-weight: 600;
+    font-size: 0.75em;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 0.25em;
+}
+
+/* Media Queries */
