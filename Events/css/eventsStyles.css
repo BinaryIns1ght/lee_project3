@@ -2,6 +2,13 @@
 
 #topBanner {
     width: 100%;
+    
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
 }
 
 #topBanner img {
@@ -37,6 +44,14 @@
     font-family: 'Oswald', sans-serif;
     font-weight: 800;
     font-size: 1.5em;
+    padding-bottom: 1em;
+
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
 }
 
 #eventDisplay {
@@ -44,7 +59,14 @@
     margin: auto;
     border: 0.25em solid black;
     box-shadow: 0.5em 0.5em black;
-    background-color: darkgray;
+    background-color: rgb(15, 246, 192);
+
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
 }
 
 #eventDisplay h1 {
@@ -53,10 +75,12 @@
     font-family: 'Farsan', sans-serif;
     font-weight: 900;
     text-decoration: underline;
+    font-size: 2em;
+    color: rgb(184, 52, 100);
 }
 
 #eventDisplay article {
-    width: 80%;
+    width: 95%;
     margin: auto;
     margin-bottom: 2%;
 
@@ -66,6 +90,7 @@
     justify-content: center;
     align-items: stretch;
     column-gap: 0.5em;
+    row-gap: 1em;
 }
 
 #eventDisplay article div {
@@ -87,21 +112,26 @@
     box-shadow: 0.125em 0.125em black;
 }
 
-#eventDisplay div h3 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 900;
-    font-size: 1em;
-    text-decoration: underline;
+#eventDisplay div section {
     width: 90%;
-    margin: auto;
-    padding-bottom: 0.25em;
-    text-align: center;
 }
 
-#eventDisplay div p {
+#eventDisplay div section h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 1.25em;
+    text-decoration: underline;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 0.5em;
+    text-align: center;
+    color: rgb(50, 74, 154);
+}
+
+#eventDisplay div section p {
     font-family: 'Farsan', sans-serif;
     font-weight: 600;
-    font-size: 0.75em;
+    font-size: 1em;
     width: 80%;
     margin: auto;
     text-align: center;
@@ -109,3 +139,176 @@
 }
 
 /* Media Queries */
+
+@media screen and (max-width: 950px) {
+    #topBanner {
+        animation-name: appear;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #topBanner img {
+        opacity: 80%;
+    }
+
+    #eventText {
+        left: 25%;
+        line-height: 7.5em;
+    }
+
+    #eventText h2 {
+        font-size: 2.5em;
+    }
+
+    #eventText h1{
+        font-size: 15em;
+    }
+
+    #eventsIntro {
+        animation-name: appear;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #eventsIntro p {
+        font-size: 1.25em;
+        margin-bottom: 1em;
+    }
+
+    #eventDisplay { 
+        width: 90%;
+
+        animation-name: appear;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #eventDisplay h1 {
+        font-size: 2.5em;
+    }
+
+    #eventDisplay article {
+        width: 90%;
+        row-gap: 1.75em;
+        column-gap: 1em;
+    }
+
+    #eventDisplay article div {
+        width: 47%;
+        background-color: rgb(12, 118, 94);
+        flex-direction: row;
+    }
+
+    #eventDisplay article div img {
+        width: 37%;
+        margin: 1em;
+    }
+
+    #eventDisplay article div section {
+        margin: 1em;
+        width: 50%;
+    }
+
+    #eventDisplay article div section h3 {
+        color: rgb(184, 52, 100);
+        text-shadow: 0.1em 0.1em black;
+        font-size: 1.25em;
+    }
+
+    #eventDisplay article div section p {
+        width: 90%;
+        color: white;
+        font-size: 1em;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #topBanner {
+        animation-name: appear;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #topBanner img {
+        opacity: 65%;
+    }
+
+    #eventsIntro {
+        animation-name: appear;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #eventsIntro p{
+        font-size: 1em;
+    }
+
+    #eventText {
+        top: 5%;
+        left: 25%;
+        line-height: 6.5em;
+    }
+
+    #eventText h2 {
+        font-size: 2.25em;
+        font-weight: 800;
+    }
+
+    #eventText h1{
+        font-size: 12em;
+    }
+
+    #eventDisplay {
+        width: 90%;
+
+        animation-name: appear;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #eventDisplay article {
+        width: 99%;
+    }
+
+    #eventDisplay article div {
+        width: 47%;
+        background-color: rgb(50, 74, 154);
+        flex-direction: column;
+    }
+
+    #eventDisplay article div section {
+        width: 90%;
+    }
+
+    #eventDisplay article div img {
+        width: 75%;
+        box-shadow: 0.2em 0.2em black;
+    }
+
+    #eventDisplay article div section h3 {
+        font-size: 2.25em;
+    }
+
+    #eventDisplay article div section p {
+        font-size: 1.5em;
+    }
+}

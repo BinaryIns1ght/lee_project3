@@ -9,8 +9,8 @@
 body {
     min-height: 100%;
     height: 760px;
-    width: 98dvw;
-    background-color: lightgray;
+    width: 100%;
+    background-color: rgb(251, 224, 150);
 }
 
 a {
@@ -23,7 +23,7 @@ header {
     flex-direction: row;
     width: 100%;
     height: 15%;
-    background-color: gray;
+    background-color: rgb(133, 158, 236);
 
     animation-name: appear;
     animation-duration: 1.5s;
@@ -53,14 +53,21 @@ header {
     font-size: 2em;
 }
 
-.links:hover, #selected:hover {
+.links:hover {
     color: white;
     background-color: rgb(50, 74,154);
     transition-duration: 0.5s;
 }
 
+#selected:hover {
+    color: rgb(184, 52, 100);
+    background-color: rgb(50, 74, 154);
+    transition-duration: 0.5s;
+}
+
 #selected {
     color: rgb(12, 118, 94);
+    text-shadow: 0.1em 0.1em black;
 }
 
 footer {
@@ -146,10 +153,23 @@ footer article {
     font-size: 4em;
     font-family: 'Oswald', sans-serif;
     font-weight: 1000;
+    line-height: 1.25em;
     position: absolute;
-    left: 27%;
+    left: 18%;
     top: 30%;
 }
+
+#topSubhead {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 850;
+    position: absolute;
+    top: 60%;
+    left: 27%;
+}
+
 
 #midSect {
     padding: 1em;
@@ -188,30 +208,41 @@ footer article {
     background-color: white;
     margin: auto;
     margin-top: 5%;
+    padding: 1em;
     width: 90%;
     border: 0.15em solid black;
     box-shadow: 0.25em 0.25em  black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: stretch;
+    row-gap: 2em;
+
 
     animation-name: appear;
-        animation-duration: 1.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
+    animation-duration: 1.5s;
+    animation-delay: 0s;        animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
 }
 
 #showcase article {
-    display: block;
     margin: auto;
-    margin-top: 1em;
-    width: 90%;
-    margin-bottom: 1em;
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
 }
 
 #showcase article div {
     background-color: rgb(250, 208, 95);
     border: 0.1em solid black;
     box-shadow: 0.2em 0.2em  black;
+    width: 80%;
 
     display: flex;
     flex-direction: row;
@@ -221,7 +252,7 @@ footer article {
 }
 
 #showcase article div img {
-    width: 20%;
+    width: 50%;
     margin: 1em;
     border: 0.25em solid black;
     box-shadow: 0.5em 0.5em black;
@@ -229,7 +260,7 @@ footer article {
 
 #showcase article div p {
     padding: 0.5em;
-    width: 40%;
+    width: 90%;
     font-size: 1.25em;
     font-weight: 650;
     font-family: 'Farsan', sans-serif;
@@ -245,7 +276,7 @@ footer article {
     }
     
     header {
-        background-color: rgba(50, 74, 154, 0.75);
+        background-color: rgb(118, 143, 224);
         width: 100%;
         margin-top: 0%;
         height: 7.5%;
@@ -272,6 +303,7 @@ footer article {
 
     #selected {
         color: rgb(250, 208, 95);
+        text-shadow: none;
     }
 
     #topPart {
@@ -287,9 +319,15 @@ footer article {
 
     #topDesc {
         font-size: 500%;
-        top: 20%;
+        top: 40%;
+        left: 15%;
+        font-weight: 650;
+    }
+
+    #topSubhead {
+        font-size: 250%;
+        top: 80%;
         left: 25%;
-        font-weight: 100;
     }
 
     #midSect {
@@ -318,7 +356,7 @@ footer article {
     }
 
     #showcase {
-        width: 90%;
+        width: 80%;
         margin-top: 5%;
         display: block;
 
@@ -331,7 +369,8 @@ footer article {
     }
 
     #showcase article {
-        width: 80%;
+        width: 90%;
+        margin-bottom: 1em;
     }
 
     #showcase article div {
@@ -342,7 +381,7 @@ footer article {
     }
 
     #showcase article div img {
-        width: 30%;
+        width: 40%;
         /* margin-left: 5%; */
     }
 
@@ -361,7 +400,7 @@ footer article {
     }
     
     header {
-        background-color: rgba(50, 74, 154, 0.5);
+        background-color: rgb(58, 94, 213);
         width: 100%;
         margin-top: 0%;
         height: 5%;
@@ -396,11 +435,22 @@ footer article {
         animation-direction: normal;
     }
 
+    #topPart img {
+        opacity: 70%;
+    }
+
     #topDesc {
-        font-size: 450%;
+        font-size: 400%;
         top: 8%;
-        left: 17%;
+        left: 8%;
         font-weight: 100;
+    }
+
+    #topSubhead {
+        font-size: 200%;
+        font-weight: 500;
+        top: 18%;
+        left: 17%;
     }
 
     #midSect {
