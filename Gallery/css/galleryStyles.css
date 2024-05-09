@@ -1,0 +1,298 @@
+/* Gallery Styling */
+
+#galleryIntro {
+    height: 25%;
+    width: 100%;
+
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+#galleryIntro img {
+    height: 100%;
+    width: 100%;
+    opacity: 70%;
+    object-fit: cover;
+    object-position: center 70%;
+    box-shadow: 0em 0.5em black;
+}
+
+#galleryIntro section {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 4.5em;
+    text-shadow: 0.15em 0.15em black;
+
+    position: absolute;
+    top: 17%;
+    left: 30%;
+}
+
+#galleryIntro section h3 {
+    color: rgb(91, 118, 209);
+    font-size: 2em;
+}
+
+#galleryIntro section h1 {
+    color: rgb(26, 216, 172);
+    font-size: 7em;
+}
+
+#galleryText {
+    padding: 1em;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+#galleryText h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    color: rgb(184, 52, 100);
+    text-shadow: 0.05em 0.05em black;
+}
+
+#galleryText p {
+    font-family: 'Farsan', sans-serif;
+    font-size: 1.5em;
+    width: 80%;
+    margin: auto;
+    margin-top: 0.5em;
+    font-weight: 600;
+}
+
+#galleryForm {
+    width: 95%;
+    margin: auto;
+    margin-top: 1%;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(241, 241, 241);
+    border: 0.1em solid black;
+    padding: 1em;
+    padding-bottom: 3em;
+    box-shadow: 0.25em 0.25em 0.5em black;
+    text-transform: capitalize;
+
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+#galleryForm h1{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#imageSubmit {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3em;
+}
+
+#galleryForm h3 {
+    margin-left: 5em;
+    font-weight: 100;
+}
+
+#galleryForm input {
+    margin-left: 7.1em;
+    margin-top: 0.25em;
+    margin-bottom: 2em;
+}
+
+#subTitle {
+    width: 40%;
+    height: 5%;
+}
+
+#subN {
+    width: 25%;
+}
+
+#subDesc {
+    width: 70%;
+    height: 20%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 950px) {
+    #galleryIntro {
+        animation-name: appear;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #galleryIntro img {
+        opacity: 65%;
+        object-position: center 60%;
+    }
+
+    #galleryIntro section {
+        top: 12%;
+        left: 25%;
+        text-shadow: 0.15em 0.15em ghostwhite;
+        line-height: 6em;
+    }
+
+    #galleryIntro section h3 {
+        color: rgb(50, 74, 154);
+        font-size: 3em;
+    }
+
+    #galleryIntro section h1 {
+        color: rgb(12, 118, 94);
+        font-size: 10em;
+    }
+
+    #galleryText {
+        animation-name: appear;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #galleryText h1 {
+        font-size: 3em;
+    }
+
+    #galleryText p {
+        font-size: 2em;
+        width: 95%;
+    }
+
+    #galleryForm {
+        animation-name: appear;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #galleryForm input {
+        margin-left: 8.5%;
+        margin-top: 0.25em;
+        margin-bottom: 1.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #galleryIntro {
+        height: 10%;
+
+        animation-name: appear;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #galleryIntro img {
+        opacity: 55%;
+        object-position: center 60%;
+    }
+
+    #galleryIntro section {
+        top: 3.75%;
+        left: 30%;
+        text-shadow: 0.15em 0.15em black;
+        line-height: 4em;
+    }
+
+    #galleryIntro section h3 {
+        color: rgb(50, 74, 154);
+        font-size: 1.75em;
+    }
+
+    #galleryIntro section h1 {
+        color: rgb(12, 118, 94);
+        font-size: 5em;
+    }
+
+    #galleryText {
+        width: 90%;
+
+        animation-name: appear;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #galleryText h1 {
+        font-size: 3em;
+    }
+
+    #galleryText p {
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+
+    #galleryForm {
+        width: 90%;
+        animation-name: appear;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #galleryForm h1 {
+        font-size: 2em;
+    }
+
+    #imageSubmit input {
+        scale: 0.75;
+    }
+
+    #galleryForm h3 {
+        font-size: 1.5em;
+        margin-left: 2em;
+    }
+
+    #galleryForm input {
+        margin-left: 7%;
+        margin-bottom: 2em;
+    }
+
+    #subTitle {
+        width: 50%;
+    }
+
+    #subN {
+        width: 35%;
+    }
+
+    #subDesc {
+        width: 80%;
+    }
+}
