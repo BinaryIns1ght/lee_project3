@@ -150,12 +150,19 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 0.5em;
-    row-gap: 1em;
+    column-gap: 1em;
+    row-gap: 1.5em;
+
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
 }
 
 #gallery article {
-    width: 30%;
+    width: 20%;
     background-color: white;
     border: 0.25em solid black;
     box-shadow: 0.25em 0.25em black;
@@ -164,6 +171,7 @@
 
     display: block;
     justify-content: center;
+    align-content: center;
 }
 
 #gallery img {
@@ -261,6 +269,58 @@
         margin-top: 0.25em;
         margin-bottom: 1.5em;
     }
+
+    #gallerySub {
+
+        animation-name: appear;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #gallery {
+        width: 100%;
+
+        animation-name: appear;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #gallery article {
+        width: 30%;
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    #gallery article img {
+        width: 40%;
+    }
+
+    #gallery article div {
+        width: 50%;
+    }
+
+    #gallery article div h2, p {
+        width: 100%;
+    }
+
+    #gallery article div h2 {
+        font-size: 1em;
+    }
+
+    #gallery article div p {
+        font-size: 0.75em;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -319,6 +379,7 @@
 
     #galleryForm {
         width: 90%;
+        
         animation-name: appear;
         animation-duration: 1s;
         animation-delay: 0s;
@@ -369,5 +430,51 @@
 
     #subDesc {
         width: 80%;
+    }
+
+    #gallerySub {
+        animation-name: appear;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #gallery {
+        width: 99%;
+        column-gap: 2em;
+
+        animation-name: appear;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #gallery article {
+        width: 45%;
+        border: 0.5em solid black;
+        box-shadow: 0.5em 0.5em black;
+
+        display: block;
+    }
+
+    #gallery article img {
+        width: 70%;
+    }
+
+    #gallery article div {
+        margin: auto;
+        width: 95%;
+    }
+
+    #gallery article div h2 {
+        font-size: 2em;
+    }
+
+    #gallery article div p {
+        font-size: 1.75em;
     }
 }
