@@ -1,0 +1,231 @@
+#merchBegin {
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+#merchBegin img {
+    width: 100%;
+}
+
+#merchBegin article {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    width: 100%;
+    text-shadow: 0.15em 0.15em rgba(0, 0, 0);
+    line-height: 3.75em;
+    text-transform: capitalize;
+}
+
+#merchBegin article h2 {
+    font-size: 3em;
+    font-weight: 750;
+    color: rgb(184, 52, 100);
+}
+
+#merchBegin article h1 {
+    font-size: 5em;
+    font-weight: 900;
+    color: rgb(12, 118, 94);
+}
+
+#merchTagline {
+    margin-top: 5%;
+    font-size: 1.15em;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+#merchTagline h1 {
+    color: black;
+}
+
+#merchTagline h1 strong {
+    color: dimgray;
+}
+
+#charity {
+    width: 95%;
+    padding: 1em;
+    margin: auto;
+    margin-top: 1.5%;
+    background-color: rgb(250, 208, 95);
+    border: 0.25em solid black;
+    box-shadow: 0.2em 0.2em black;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5em;
+
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+#charity img {
+    width: 35%;
+}
+
+#charity article {
+    width: 50%;
+    display: block;
+    justify-content: center;
+}
+
+#charity article h5 {
+    font-size: 1.75em;
+    font-family: 'Oswald', sans-serif;
+}
+
+#charity article button {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    padding: 0.5em;
+    font-size: 2.5em;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(12, 118, 94);
+    background-color: transparent;
+    border: 0em solid black;
+    transition-duration: 0.5s;
+}
+
+#charity article button:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 950px) {
+    #merchBegin {
+        width: 90%;
+
+        animation-name: appear;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #merchBegin article {
+        margin-top: 2%;
+        text-align: center;
+        text-shadow: 0.2em 0.2em rgb(20, 9, 9);
+        line-height: 3.5em;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        column-gap: 1.5em;
+    }
+
+    #merchBegin article h2 {
+        font-size: 3.5em;
+        font-weight: 700;
+    }
+    
+    #merchBegin article h1 {
+        font-size: 3.5em;
+        font-weight: 900;
+    }
+
+    #merchTagline {
+        width: 95%;
+        margin: auto;
+        margin-top: 2%;
+        font-size: 1.2em;
+
+        animation-name: appear;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #charity {
+        animation-name: appear;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #merchBegin {
+        width: 100%;
+
+        animation-name: appear;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #merchBegin article {
+        margin-top: 2%;
+        text-align: center;
+        text-shadow: 0.2em 0.2em rgb(20, 9, 9);
+        line-height: 4.5em;
+
+        display: block;
+        justify-content: center;
+    }
+
+    #merchBegin article h2 {
+        font-size: 3.5em;
+        font-weight: 800;
+    }
+    
+    #merchBegin article h1 {
+        font-size: 5em;
+        font-weight: 900;
+    }
+
+    #merchTagline {
+        width: 90%;
+        margin-top: 4%;
+        font-size: 1.35em;
+
+        animation-name: appear;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #charity {
+        animation-name: appear;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+}
