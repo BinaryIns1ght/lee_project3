@@ -114,6 +114,93 @@
     color: white;
 }
 
+#merch {
+    margin: auto;
+    margin-top: 2em;
+    width: 95%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 1em;
+    row-gap: 1.5em;
+
+    animation-name: appear;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+}
+
+#merch article {
+    background-color: rgb(70, 101, 206);
+    border: 0.2em solid black;
+    box-shadow: 0.2em 0.2em black;
+    width: 30%;
+    text-align: center;
+    color: white;
+    padding: 0.75em;
+}
+
+#merch article img {
+    width: 70%;
+}
+
+#merch article div {
+    width: 90%;
+    margin: auto;
+}
+
+#merch article div h1 {
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    padding: 0.2em;
+}
+
+#merch article div h2 {
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.75em;
+    padding-bottom: 1em;
+}
+
+#merch article div p {
+    text-align: left;
+    font-family: 'Farsan', sans-serif;
+    width: 85%;
+    margin: auto;
+    padding-bottom: 0.5em;
+    font-weight: 700;
+}
+
+#merch article div h3 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0.25em;
+}
+
+#merch article div button {
+    margin: 0.5em;
+    font-size: 1.25em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    padding: 0.5em;
+    background-color: transparent;
+    border: 0.15em solid transparent;
+    box-shadow: 0.1em 0.1em transparent;
+    color: white;
+}
+
+#merch article div button:hover {
+    background-color: rgb(250, 208, 95);
+    border: 0.15em solid black;
+    box-shadow: 0.1em 0.1em black;
+    color: black;
+    transition-duration: 0.75s;
+}
+
 @media screen and (max-width: 950px) {
     #merchBegin {
         width: 90%;
@@ -173,6 +260,47 @@
         animation-fill-mode: forwards;
         animation-direction: normal;
     }
+
+    #merch {
+        width: 100%;
+
+        animation-name: appear;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #merch article {
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #merch article img {
+        width: 60%;
+    }
+
+    #merch article div {
+        width: 40%;
+    }
+
+    #merch article div h1 {
+        font-size: 1em;
+    }
+
+    #merch article div h2 {
+        font-size: 0.75em;
+    }
+
+    #merch article div p {
+        font-size: 0.6em;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -227,5 +355,56 @@
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
         animation-direction: normal;
+    }
+
+    #merch {
+        width: 95%;
+        display: block;
+
+        animation-name: appear;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-direction: normal;
+    }
+
+    #merch article {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1em;
+
+        justify-content: center;
+    }
+
+    #merch article img {
+        width: 50%;
+    }
+
+    #merch article div {
+        width: 40%;
+    }    
+
+    #merch article div h1 {
+        font-size: 1.25em;
+    }
+
+    #merch article div h2 {
+        margin-top: 0.5em;
+        font-size: 1.1em;
+    }
+
+    #merch article div p {
+        text-align: center;
+        font-size: 0.75em;
+    }
+
+    #merch article div h3 {
+        margin-top: 1em;
+        font-size: 2em;
+    }
+
+    #merch article div button {
+        font-size: 1.75em;
     }
 }
