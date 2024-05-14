@@ -3,13 +3,6 @@
 #galleryIntro {
     height: 25%;
     width: 100%;
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
 }
 
 #galleryIntro img {
@@ -49,13 +42,6 @@
     text-align: center;
     margin: auto;
     margin-top: 1%;
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
 }
 
 #galleryText h1 {
@@ -85,13 +71,6 @@
     padding-bottom: 3em;
     box-shadow: 0.25em 0.25em 0.5em black;
     text-transform: capitalize;
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
 }
 
 #galleryForm h1{
@@ -152,13 +131,6 @@
     justify-content: center;
     column-gap: 1em;
     row-gap: 1.5em;
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
 }
 
 #gallery article {
@@ -206,15 +178,6 @@
 /* Media Queries */
 
 @media screen and (max-width: 950px) {
-    #galleryIntro {
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
-    }
-
     #galleryIntro img {
         opacity: 65%;
         object-position: center 60%;
@@ -237,15 +200,6 @@
         font-size: 10em;
     }
 
-    #galleryText {
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
-    }
-
     #galleryText h1 {
         font-size: 3em;
     }
@@ -255,40 +209,14 @@
         width: 95%;
     }
 
-    #galleryForm {
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
-    }
-
     #galleryForm input {
         margin-left: 8.5%;
         margin-top: 0.25em;
         margin-bottom: 1.5em;
     }
 
-    #gallerySub {
-
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
-    }
-
     #gallery {
         width: 100%;
-
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #gallery article {
@@ -326,13 +254,6 @@
 @media screen and (max-width: 500px) {
     #galleryIntro {
         height: 10%;
-
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #galleryIntro img {
@@ -359,13 +280,6 @@
 
     #galleryText {
         width: 90%;
-
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #galleryText h1 {
@@ -379,13 +293,6 @@
 
     #galleryForm {
         width: 90%;
-        
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #galleryForm h1 {
@@ -432,25 +339,9 @@
         width: 80%;
     }
 
-    #gallerySub {
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
-    }
-
     #gallery {
         width: 99%;
         column-gap: 2em;
-
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #gallery article {

@@ -6,11 +6,22 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: rgb(251, 224, 150);
+}
+
 body {
     min-height: 100%;
     height: 760px;
     width: 100%;
     background-color: rgb(251, 224, 150);
+
+    animation-name: appear;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
 }
 
 a {
@@ -24,13 +35,6 @@ header {
     width: 100%;
     height: 15%;
     background-color: rgb(133, 158, 236);
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
 }
 
 #iconHolder {
@@ -76,13 +80,6 @@ footer {
     margin-top: 5%;
     font-family: 'Oswald', sans-serif;
     padding-bottom: 2%;
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
 }
 
 footer article {
@@ -131,20 +128,17 @@ footer article {
 /* Home Page Styling */
 
 #topPart {
-    width: 95%;
+    width: 100%;
+    height: 50%;
     margin: auto;
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
 }
 
 #topPart img {
     width: 100%;
-    opacity: 80%;
+    height: 100%;
+    opacity: 70%;
+    object-fit: cover;
+    object-position: center 70%;
 }
 
 #topDesc {
@@ -155,8 +149,8 @@ footer article {
     font-weight: 1000;
     line-height: 1.25em;
     position: absolute;
-    left: 20%;
-    top: 42%;
+    left: 17%;
+    top: 30%;
 }
 
 #topSubhead {
@@ -166,38 +160,30 @@ footer article {
     font-family: 'Oswald', sans-serif;
     font-weight: 850;
     position: absolute;
-    top: 70%;
-    left: 27%;
+    top: 55%;
+    left: 25%;
 }
-
 
 #midSect {
     padding: 1em;
     width: 90%;
     margin: auto;
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
 }
 
 #midSect h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
     text-decoration: dashed;
-    padding-bottom: 1em;
+    padding-bottom: 0.75em;
     color: rgb(12, 118, 94);
 }
 
 #midSect p {
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-family: 'Farsan', sans-serif;
-    text-decoration: underline;
+    text-align: center;
     color: black;
     font-weight: 600;
     width: 95%;
@@ -208,63 +194,46 @@ footer article {
     background-color: white;
     margin: auto;
     margin-top: 5%;
-    padding: 1em;
+    padding: 1.5em;
     width: 90%;
     border: 0.15em solid black;
     box-shadow: 0.25em 0.25em  black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: stretch;
-    align-items: stretch;
-    row-gap: 2em;
-
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;        animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
-}
-
-#showcase article {
-    margin: auto;
-    width: 50%;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
-}
-
-#showcase article div {
-    background-color: rgb(250, 208, 95);
-    border: 0.1em solid black;
-    box-shadow: 0.2em 0.2em  black;
-    width: 80%;
-
+    text-align: center;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
+    gap: 1em 1em;
+}
+
+#showcase article {
+    background-color: rgb(250, 208, 95);
+    width: 30%;
+    border: 0.1em solid black;
+    box-shadow: 0.2em 0.2em  black;
+    display: block;
+}
+
+#showcase article div {
+    width: 100%;
 }
 
 #showcase article div img {
-    width: 50%;
+    width: 60%;
     margin: 1em;
     border: 0.25em solid black;
-    box-shadow: 0.5em 0.5em black;
+    box-shadow: 0.25em 0.25em black;
 }
 
 #showcase article div p {
     padding: 0.5em;
     width: 90%;
-    font-size: 1.25em;
+    margin: auto;
+    font-size: 1em;
     font-weight: 650;
     font-family: 'Farsan', sans-serif;
-    align-self: center;
 }
 
 /* Media Queries and Animations Styling */
@@ -308,13 +277,6 @@ footer article {
 
     #topPart {
         width: 100%;
-
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #topDesc {
@@ -334,13 +296,6 @@ footer article {
         width: 99%;
         padding: 1%;
         padding-top: 2%;
-
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #midSect h1 {
@@ -358,26 +313,27 @@ footer article {
     #showcase {
         width: 80%;
         margin-top: 5%;
+        
         display: block;
-
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #showcase article {
-        width: 90%;
+        width: 80%;
+        margin: auto;
         margin-bottom: 1em;
+        background-color: rgb(12, 118, 94);
     }
 
     #showcase article div {
         width: 90%;
-        background-color: rgb(12, 118, 94);
         margin: auto;
         padding: 1%;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     #showcase article div img {
@@ -426,17 +382,11 @@ footer article {
 
     #topPart {
         width: 100%;
-
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
+        height: 25%;
     }
 
     #topPart img {
-        opacity: 70%;
+        opacity: 60%;
     }
 
     #topDesc {
@@ -457,21 +407,14 @@ footer article {
         width: 95%;
         padding: 1%;
         padding-top: 2%;
-
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #midSect h1 {
-        font-size: 225%;
+        font-size: 3em;
     }
 
     #midSect p {
-        font-size: 160%;
+        font-size: 2.5em;
         width: 95%;
         margin: auto;
     }
@@ -480,42 +423,31 @@ footer article {
         width: 95%;
         margin: auto;
         margin-top: 2.5%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: stretch;
-
-
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #showcase article {
-        width: 50%;
-        margin: auto;
+        width: 80%;
         padding: 2%;
+        background-color:  rgb(184, 52, 100);
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     #showcase article div {
-        width: 90%;
+        width: 95%;
         margin: auto;
-        display: block;
         padding: 1%;
-        background-color:  rgb(184, 52, 100);
     }
 
     #showcase article div img {
-        width: 70%;
-        justify-self: center;
+        width: 40%;
     }
 
     #showcase article div p {
-        font-size: 125%;
-        width: 95%;
+        font-size: 1.5em;
+        width: 52%;
         margin: auto;
     }
 }

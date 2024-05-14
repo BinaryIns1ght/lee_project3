@@ -1,18 +1,14 @@
 #merchBegin {
-    width: 60%;
+    width: 100%;
+    height: 55%;
     margin: auto;
-    margin-top: 1%;
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
 }
 
 #merchBegin img {
     width: 100%;
+    height: 100%;
+
+    object-fit: cover;
 }
 
 #merchBegin article {
@@ -37,17 +33,10 @@
 }
 
 #merchTagline {
-    margin-top: 5%;
+    margin-top: 15%;
     font-size: 1.15em;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
 }
 
 #merchTagline h1 {
@@ -73,13 +62,6 @@
     justify-content: center;
     align-items: center;
     column-gap: 1.5em;
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
 }
 
 #charity img {
@@ -125,13 +107,6 @@
     justify-content: center;
     column-gap: 1em;
     row-gap: 1.5em;
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
 }
 
 #merch article {
@@ -175,6 +150,14 @@
     margin: auto;
     padding-bottom: 0.5em;
     font-weight: 700;
+    font-size: 1.15em;
+}
+
+#merch article div ul {
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 0.75em;
 }
 
 #merch article div h3 {
@@ -205,13 +188,6 @@
 @media screen and (max-width: 950px) {
     #merchBegin {
         width: 90%;
-
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #merchBegin article {
@@ -244,33 +220,10 @@
         margin: auto;
         margin-top: 2%;
         font-size: 1.2em;
-
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
-    }
-
-    #charity {
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #merch {
         width: 100%;
-
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #merch article {
@@ -307,13 +260,6 @@
 @media screen and (max-width: 500px) {
     #merchBegin {
         width: 100%;
-
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #merchBegin article {
@@ -340,41 +286,17 @@
         width: 90%;
         margin-top: 4%;
         font-size: 1.35em;
-
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
-    }
-
-    #charity {
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #merch {
         width: 95%;
         display: block;
-
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #merch article {
         width: 90%;
         margin: auto;
         margin-bottom: 1em;
-
         justify-content: center;
     }
 

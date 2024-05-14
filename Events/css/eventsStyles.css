@@ -2,17 +2,12 @@
 
 #topBanner {
     width: 100%;
-    
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
+    height: 50%;
 }
 
 #topBanner img {
     width: 100%;
+    height: 100%;
     opacity: 75%;
 }
 
@@ -43,15 +38,8 @@
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-weight: 800;
-    font-size: 1.5em;
+    font-size: 2em;
     padding-bottom: 1em;
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
 }
 
 #eventDisplay {
@@ -60,13 +48,6 @@
     border: 0.25em solid black;
     box-shadow: 0.5em 0.5em black;
     background-color: rgb(15, 246, 192);
-
-    animation-name: appear;
-    animation-duration: 1.5s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-direction: normal;
 }
 
 #eventDisplay h1 {
@@ -142,20 +123,15 @@
 
 @media screen and (max-width: 950px) {
     #topBanner {
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
+        height: 40%;
     }
 
     #topBanner img {
-        opacity: 80%;
+        opacity: 60%;
     }
 
     #eventText {
-        left: 25%;
+        left: 30%;
         line-height: 7.5em;
     }
 
@@ -168,12 +144,9 @@
     }
 
     #eventsIntro {
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
+        width: 80%;
+        margin: auto;
+        margin-top: 3%;
     }
 
     #eventsIntro p {
@@ -183,13 +156,6 @@
 
     #eventDisplay { 
         width: 90%;
-
-        animation-name: appear;
-        animation-duration: 0.5s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #eventDisplay h1 {
@@ -233,26 +199,8 @@
 }
 
 @media screen and (max-width: 500px) {
-    #topBanner {
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
-    }
-
     #topBanner img {
         opacity: 65%;
-    }
-
-    #eventsIntro {
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #eventsIntro p{
@@ -276,13 +224,6 @@
 
     #eventDisplay {
         width: 90%;
-
-        animation-name: appear;
-        animation-duration: 1s;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-direction: normal;
     }
 
     #eventDisplay article {
