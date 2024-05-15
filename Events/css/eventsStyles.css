@@ -199,6 +199,10 @@
 }
 
 @media screen and (max-width: 500px) {
+    #topBanner {
+        height: 23%;
+    }
+
     #topBanner img {
         opacity: 65%;
     }
